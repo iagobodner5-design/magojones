@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato - MAGO</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon"
+      href="https://tse2.mm.bing.net/th/id/OIP.sLInMkeE2kZLAZe1u8Mg5gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+
+    <header id="cabecalho">
+
+        <div class="cabecalho-logo">
+
+            <img class="LOGO" src="images/GPRJ.jpg"
+                 alt="Logo do canal GPRJ">
+
+            <div>
+                <h1>CONTATO</h1>
+                <p class="subtitulo">MAGO</p>
+            </div>
+
+        </div>
+
+        <nav class="links">
+            <a href="index.html">INÍCIO</a>
+            <a href="sobre.html">SOBRE</a>
+            <a href="catalogo.html">CATÁLOGO</a>
+            <a href="#Contato">CONTATO</a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                YOUTUBE
+            </a>
+        </nav>
+
+    </header>
+
+
+    <main id="Contato">
+
+        <section>
+
+            <h2>ENTRE EM CONTATO</h2>
+
+            <p>
+                Tem alguma dúvida, sugestão ou quer deixar uma mensagem
+                para os <strong>Discípulos do Mago</strong>?
+            </p>
+
+            <form class="formulario" action="/contato" method="post">
+
+                <h3>ENVIE SUA MENSAGEM</h3>
+
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                >
+
+                <label for="senha">Senha:</label>
+                <input
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    placeholder="Digite sua senha"
+                    required
+                >
+
+                <label for="idade">Idade:</label>
+                <input
+                    type="number"
+                    id="idade"
+                    name="idade"
+                    placeholder="Digite sua idade"
+                    required
+                >
+
+                <label for="mago">Qual é o seu nível de Mago?</label>
+
+                <select id="mago" name="mago">
+                    <option value="1">Iniciante</option>
+                    <option value="2">Aprendiz de Mago</option>
+                    <option value="3">Mestre</option>
+                    <option value="4">Mestre Supremo</option>
+                    <option value="5">DAVY JONES</option>
+                </select>
+
+
+                <fieldset>
+
+                    <legend>Você gosta do Davy Jones?</legend>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gosto"
+                            value="sim"
+                            required
+                        >
+                        Gosto do Davy Jones
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gosto"
+                            value="nao"
+                        >
+                        Não gosto do Davy Jones
+                    </label>
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <legend>Sexo</legend>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="sexo"
+                            value="masculino"
+                        >
+                        Masculino
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="sexo"
+                            value="feminino"
+                        >
+                        Feminino
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="sexo"
+                            value="outro"
+                        >
+                        Outro
+                    </label>
+
+                </fieldset>
+
+
+                <label for="msg">Mensagem para Davy Jones:</label>
+
+                <textarea
+                    id="msg"
+                    name="mensagem"
+                    rows="6"
+                    placeholder="Escreva sua mensagem..."
+                ></textarea>
+
+
+                <label class="checkbox">
+                    <input
+                        type="checkbox"
+                        name="termos"
+                        required
+                    >
+                    Aceito enviar este formulário.
+                </label>
+
+
+                <div class="botoes-formulario">
+
+                    <button type="submit">
+                        ENVIAR MENSAGEM
+                    </button>
+
+                    <button type="reset">
+                        LIMPAR
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>OUTRAS FORMAS DE CONTATO</h2>
+
+            <div class="contatos">
+
+                <article class="contato-card">
+
+                    <h3>YOUTUBE</h3>
+
+                    <p>
+                        Acompanhe os vídeos e conteúdos do Mago.
+                    </p>
+
+                    <a
+                        href="https://www.youtube.com/@DavaJonas"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        IR PARA O CANAL
+                    </a>
+
+                </article>
+
+
+                <article class="contato-card">
+
+                    <h3>INSTAGRAM</h3>
+
+                    <p>
+                        Confira novidades e bastidores.
+                    </p>
+
+                    <a
+                        href="https://www.instagram.com/odavyjones/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        INSTAGRAM
+                    </a>
+
+                </article>
+
+
+                <article class="contato-card">
+
+                    <h3>E-MAIL</h3>
+
+                    <p>
+                        Entre em contato com a equipe.
+                    </p>
+
+                    <a href="mailto:contato@exemplo.com">
+                        ENVIAR E-MAIL
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer id="FINAL">
+
+        <h3>Final</h3>
+
+        <p>
+            Obrigado por visitar o nosso site!
+        </p>
+
+        <nav class="linksfinais">
+
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="#Contato">Contato</a>
+            </a>
+
+        </nav>
+
+        <p>
+            &copy; 2026 -
+            <a href="creditos.html">Discípulos do Mago</a> -
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+</body>
+</html>
